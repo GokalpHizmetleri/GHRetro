@@ -11,8 +11,8 @@ import type { Route } from './+types/root.ts'
 import { AppLayout } from './components/app-layout.tsx'
 import { ErrorPage } from './components/error-page.tsx'
 
-const disabledHost = 'next.retroassembly.com'
-const targetUrl = 'https://retroassembly.com/'
+const disabledHost = 'next.GHRetro.com'
+const targetUrl = 'https://GHRetro.com/'
 
 export function loader({ request }) {
   const c = getContext()

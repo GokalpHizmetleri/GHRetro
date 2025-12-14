@@ -6,8 +6,8 @@ import { createFileResponse } from '../utils.ts'
 export const files = new Hono().get(':id{.+}', async (c) => {
   const id = c.req.param('id')
   const runTimeEnv = getRunTimeEnv()
-  if (runTimeEnv.RETROASSEMBLY_RUN_TIME_STORAGE_HOST) {
-    return c.redirect(new URL(id, runTimeEnv.RETROASSEMBLY_RUN_TIME_STORAGE_HOST))
+  if (runTimeEnv.GHRETRO_RUN_TIME_STORAGE_HOST) {
+    return c.redirect(new URL(id, runTimeEnv.GHRETRO_RUN_TIME_STORAGE_HOST))
   }
   const file = await getFileContent(id)
   if (file) {

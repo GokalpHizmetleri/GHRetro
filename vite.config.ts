@@ -13,9 +13,9 @@ import { getTargetRuntime, logServerInfo, prepareWranglerConfig } from './script
 import { getDirectories } from './src/constants/env.ts'
 
 defaults(process.env, {
-  RETROASSEMBLY_BUILD_TIME_VITE_BUILD_TIME: DateTime.now().setZone('utc').toISO(),
-  RETROASSEMBLY_BUILD_TIME_VITE_VERSION: await getVersion(),
-  RETROASSEMBLY_RUN_TIME_PORT: '8000',
+  GHRETRO_BUILD_TIME_VITE_BUILD_TIME: DateTime.now().setZone('utc').toISO(),
+  GHRETRO_BUILD_TIME_VITE_VERSION: await getVersion(),
+  GHRETRO_RUN_TIME_PORT: '8000',
 })
 
 async function getVersion() {
@@ -59,10 +59,10 @@ function serverInfo() {
 }
 
 export default defineConfig(async (env) => {
-  const envPort = process.env.RETROASSEMBLY_RUN_TIME_PORT || process.env.PORT
+  const envPort = process.env.GHRETRO_RUN_TIME_PORT || process.env.PORT
   const port = envPort ? Number.parseInt(envPort, 10) || 8000 : 8000
   const config: UserConfig = {
-    envPrefix: 'RETROASSEMBLY_BUILD_TIME_VITE_',
+    envPrefix: 'GHRETRO_BUILD_TIME_VITE_',
     plugins: [tailwindcss(), reactRouter(), devtoolsJson(), serverInfo()],
     server: {
       allowedHosts: true,
@@ -75,7 +75,7 @@ export default defineConfig(async (env) => {
 
   if (getTargetRuntime() === 'workerd') {
     if (env.command === 'serve') {
-      await $`wrangler d1 migrations apply retroassembly_library`
+      await $`wrangler d1 migrations apply GHRetro_library`
     }
     await prepareWranglerConfig()
     const { cloudflare } = await import('@cloudflare/vite-plugin')

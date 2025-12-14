@@ -19,8 +19,8 @@ import { UploadInstruction } from './upload-instruction.tsx'
 export function UploadDialog({ platform, toggleOpen }: Readonly<{ platform: PlatformName; toggleOpen: () => void }>) {
   const { t } = useTranslation()
   const { env, isOfficialHost } = useGlobalLoaderData()
-  const maxFiles = Number.parseInt(env.RETROASSEMBLY_RUN_TIME_MAX_UPLOAD_AT_ONCE, 10) || 1000
-  const maxRomCount = Number.parseInt(env.RETROASSEMBLY_RUN_TIME_MAX_ROM_COUNT, 10) || Infinity
+  const maxFiles = Number.parseInt(env.GHRETRO_RUN_TIME_MAX_UPLOAD_AT_ONCE, 10) || 1000
+  const maxRomCount = Number.parseInt(env.GHRETRO_RUN_TIME_MAX_ROM_COUNT, 10) || Infinity
 
   const { reloadSilently } = useRouter()
   const { getRootProps, isDragActive } = useDropzone({ onDrop })

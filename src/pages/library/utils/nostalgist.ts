@@ -10,7 +10,7 @@ function getCoreCDNUrl(core: string) {
   const segments = externalCores.includes(core)
     ? [
         'npm',
-        ['retroassembly-custom-cores', '1.22.2-20251119172557'].join('@'),
+        ['GHRetro-custom-cores', '1.22.2-20251119172557'].join('@'),
         'dist',
         'cores',
         `${core}_libretro.zip`,

@@ -12,7 +12,7 @@ export const linkMap = {
     logo: 'icon-[logos--github-icon]',
     name: 'GitHub',
     text: 'Visit our GitHub',
-    url: 'https://github.com/arianrhodsandlot/retroassembly',
+    url: 'https://github.com/arianrhodsandlot/GHRetro',
   },
 }
 

@@ -1,6 +1,6 @@
 {
-  "name": "RetroAssembly",
-  "short_name": "RetroAssembly",
+  "name": "GHRetro",
+  "short_name": "GHRetro",
   "description": "The personal retro game collection cabinet in your browser",
   "start_url": "/library",
   "display": "standalone",

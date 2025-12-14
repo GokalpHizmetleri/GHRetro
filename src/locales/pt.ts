@@ -258,13 +258,13 @@ export const translation: ResourceLanguage = {
   'retrobrews project': 'projeto retrobrews',
   Retry: 'Tentar novamente',
   review_dash:
-    'O RetroAssembly não é só mais uma interface de emulador ou um gerenciador de ROMs: é um lembrete de como o retrogaming pode ser simples e divertido quando as barreiras somem. No fundo, a ideia é deixar aqueles clássicos fáceis de encontrar, fáceis de jogar e fáceis de levar com você para qualquer lugar. A tecnologia por trás é moderna, mas a filosofia é puro espírito 8‑bit: escolher um jogo, apertar Start e sair jogando.',
+    'O GHRetro não é só mais uma interface de emulador ou um gerenciador de ROMs: é um lembrete de como o retrogaming pode ser simples e divertido quando as barreiras somem. No fundo, a ideia é deixar aqueles clássicos fáceis de encontrar, fáceis de jogar e fáceis de levar com você para qualquer lugar. A tecnologia por trás é moderna, mas a filosofia é puro espírito 8‑bit: escolher um jogo, apertar Start e sair jogando.',
   review_jim_gray:
-    'Ter uma enorme biblioteca de jogos retrô à disposição é ótimo, mas não adianta muito se você esqueceu o seu portátil em casa. Ou então você quer começar o mais novo Jogo do Mês e percebe que, por algum motivo, ele não está no seu portátil. O RetroAssembly existe justamente para resolver isso, deixando toda a sua coleção acessível direto do navegador.',
+    'Ter uma enorme biblioteca de jogos retrô à disposição é ótimo, mas não adianta muito se você esqueceu o seu portátil em casa. Ou então você quer começar o mais novo Jogo do Mês e percebe que, por algum motivo, ele não está no seu portátil. O GHRetro existe justamente para resolver isso, deixando toda a sua coleção acessível direto do navegador.',
   review_korben:
-    'O RetroAssembly é o que podemos chamar de uma estação pessoal de jogos retrô que cabe em uma aba do navegador. Sem instalação, sem configuração complicada – apenas a sua coleção de jogos retrô acessível de qualquer dispositivo. Depois de testar a plataforma, você vai ter a sensação de ter redescoberto o seu quarto de gamer de infância…',
+    'O GHRetro é o que podemos chamar de uma estação pessoal de jogos retrô que cabe em uma aba do navegador. Sem instalação, sem configuração complicada – apenas a sua coleção de jogos retrô acessível de qualquer dispositivo. Depois de testar a plataforma, você vai ter a sensação de ter redescoberto o seu quarto de gamer de infância…',
   review_robert_triggs:
-    'O RetroAssembly transforma o gerenciamento da minha biblioteca de jogos de uma tarefa cansativa em um prazer. É simples de configurar, muito fácil de usar e funciona em todos os meus dispositivos. Finalmente posso gastar menos tempo mexendo em configurações e mais tempo jogando.',
+    'O GHRetro transforma o gerenciamento da minha biblioteca de jogos de uma tarefa cansativa em um prazer. É simples de configurar, muito fácil de usar e funciona em todos os meus dispositivos. Finalmente posso gastar menos tempo mexendo em configurações e mais tempo jogando.',
   Reviews: 'Avaliações',
   Rewind: 'Rebobinar',
   'Rewind Gameplay': 'Rebobinar Jogabilidade',

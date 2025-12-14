@@ -4,15 +4,15 @@ import { attempt, once } from 'es-toolkit'
 import fs from 'fs-extra'
 import { temporaryDirectory } from 'tempy'
 
-const envPort = process.env.RETROASSEMBLY_RUN_TIME_PORT || process.env.PORT
+const envPort = process.env.GHRETRO_RUN_TIME_PORT || process.env.PORT
 const port = envPort ? Number.parseInt(envPort, 10) || 8000 : 8000
-const tmp = temporaryDirectory({ prefix: 'retroassembly-test-' })
+const tmp = temporaryDirectory({ prefix: 'GHRetro-test-' })
 
 const cleanup = once(() => {
   attempt(() => fs.removeSync(tmp))
 })
 
-process.env.RETROASSEMBLY_BUILD_TIME_VITE_DISABLE_FS_ACCESS_API = 'true'
+process.env.GHRETRO_BUILD_TIME_VITE_DISABLE_FS_ACCESS_API = 'true'
 
 process.on('SIGINT', (e) => {
   cleanup()
@@ -30,12 +30,12 @@ export default defineConfig({
   timeout: isCI ? 10_000 : 0,
   use: {
     baseURL: `http://localhost:${port}/`,
-    channel: 'chrome',
+    channel: 'chromium',
   },
   webServer: {
     command: process.env.PLAYWRIGHT_WEB_SERVER_COMMAND || 'pnpm dev',
     env: {
-      RETROASSEMBLY_RUN_TIME_DATA_DIRECTORY: tmp,
+      GHRETRO_RUN_TIME_DATA_DIRECTORY: tmp,
       ...process.env,
     },
     port,

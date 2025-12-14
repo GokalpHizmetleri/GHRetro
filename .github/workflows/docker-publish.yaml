@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: retroassembly
+  IMAGE_NAME: GHRetro
 
 jobs:
   build-and-push:
@@ -46,4 +46,4 @@ jobs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
         build-args: |
-          RETROASSEMBLY_BUILD_TIME_VITE_VERSION=${{ github.ref_name }}
+          GHRETRO_BUILD_TIME_VITE_VERSION=${{ github.ref_name }}

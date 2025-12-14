@@ -8,8 +8,8 @@ assignees: ''
 ---
 
 <!--
-Before you create a new issue, please make sure that you are reporting a real bug related to RetroAssembly, not a bug regarding emulators (which should be reported to upstream repositories)
-For feature requests or suggestions, its recommended to create a discussion instead though this is not mandatory. Visit https://github.com/arianrhodsandlot/retroassembly/discussions/new?category=ideas to create a discussion.
+Before you create a new issue, please make sure that you are reporting a real bug related to GHRetro, not a bug regarding emulators (which should be reported to upstream repositories)
+For feature requests or suggestions, its recommended to create a discussion instead though this is not mandatory. Visit https://github.com/arianrhodsandlot/GHRetro/discussions/new?category=ideas to create a discussion.
 
 1. Use clear, descriptive titles for your posts. Be respectful and constructive in all interactions.
 2. When reporting issues, please provide:

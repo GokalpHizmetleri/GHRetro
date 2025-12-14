@@ -257,13 +257,13 @@ export const translation: ResourceLanguage = {
   'retrobrews project': 'Projekt retrobrews',
   Retry: 'Zkusit znovu',
   review_dash:
-    'RetroAssembly není jen další frontend pro emulátor nebo správce ROM: je to připomínka toho, jak jednoduché a zábavné může být retro hraní, když se odstraní překážky. Jde o to, aby klasické tituly byly snadno dostupné, snadno hratelné a snadno přenosné kamkoli jdete. Technologie pod kapotou může být moderní, ale filozofie je čistě 8-bitová: vyberte hru, stiskněte start a hrajete.',
+    'GHRetro není jen další frontend pro emulátor nebo správce ROM: je to připomínka toho, jak jednoduché a zábavné může být retro hraní, když se odstraní překážky. Jde o to, aby klasické tituly byly snadno dostupné, snadno hratelné a snadno přenosné kamkoli jdete. Technologie pod kapotou může být moderní, ale filozofie je čistě 8-bitová: vyberte hru, stiskněte start a hrajete.',
   review_jim_gray:
-    'Mít obrovskou knihovnu retro her je jedna věc, ale nic vám to nepomůže, pokud jste nechali handheld doma. Nebo chcete začít s nejnovější Hrou měsíce a zjistíte, že ji na handheldu nemáte z nějakého důvodu. RetroAssembly vám s tím pomáhá, protože celá vaše sbírka je dostupná přímo z prohlížeče.',
+    'Mít obrovskou knihovnu retro her je jedna věc, ale nic vám to nepomůže, pokud jste nechali handheld doma. Nebo chcete začít s nejnovější Hrou měsíce a zjistíte, že ji na handheldu nemáte z nějakého důvodu. GHRetro vám s tím pomáhá, protože celá vaše sbírka je dostupná přímo z prohlížeče.',
   review_korben:
-    'RetroAssembly je to, čemu říkáme osobní retro herní stanice, která se vejde do záložky prohlížeče. Žádná instalace, žádné složité nastavení, jen vaše sbírka retro her dostupná z jakéhokoli zařízení. Po vyzkoušení této platformy budete mít dojem, že jste znovu objevili svůj pokoj jako mladý hráč…',
+    'GHRetro je to, čemu říkáme osobní retro herní stanice, která se vejde do záložky prohlížeče. Žádná instalace, žádné složité nastavení, jen vaše sbírka retro her dostupná z jakéhokoli zařízení. Po vyzkoušení této platformy budete mít dojem, že jste znovu objevili svůj pokoj jako mladý hráč…',
   review_robert_triggs:
-    'RetroAssembly proměňuje správu herní knihovny z povinnosti na potěšení. Je snadné nastavit, pohodlné používat a funguje na všech mých zařízeních. Konečně mohu trávit méně času nastavováním a více času hraním.',
+    'GHRetro proměňuje správu herní knihovny z povinnosti na potěšení. Je snadné nastavit, pohodlné používat a funguje na všech mých zařízeních. Konečně mohu trávit méně času nastavováním a více času hraním.',
   Reviews: 'Recenze',
   Rewind: 'Přetočit zpět',
   'Rewind Gameplay': 'Přetočit hru zpět',

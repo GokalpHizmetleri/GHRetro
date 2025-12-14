@@ -27,7 +27,7 @@ export function HeroMain() {
       <ButtonLinks />
       <a
         className='mt-4 flex items-center gap-2 text-xs underline opacity-80'
-        href='https://github.com/arianrhodsandlot/retroassembly#option-2-self-host-with-docker'
+        href='https://github.com/arianrhodsandlot/GHRetro#option-2-self-host-with-docker'
       >
         <span className='icon-[mdi--docker] motion-preset-oscillate motion-duration-2000 relative -top-0.5 text-2xl text-[#1d63ed]' />
         {t('Self-Hosting with Docker')}

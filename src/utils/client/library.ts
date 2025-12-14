@@ -49,27 +49,27 @@ export function getRomLibretroThumbnail(
 }
 
 export function getPlatformIcon(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/icons/${platform}.png`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/icons/${platform}.png`)
 }
 
 export function getPlatformGameIcon(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/contents/${platform}.svg`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/contents/${platform}.svg`)
 }
 
 export function getPlatformBanner(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/logos/${platform}.svg`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/logos/${platform}.svg`)
 }
 
 export function getPlatformDevicePhoto(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/photos/${platform}.png`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/photos/${platform}.png`)
 }
 
 export function getPlatformDeviceBackground(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/backgrounds/${platform}.png`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/backgrounds/${platform}.png`)
 }
 
 export function getPlatformBluredBackground(platform: string) {
-  return getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/blured-backgrounds/${platform}.jpg`)
+  return getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/blured-backgrounds/${platform}.jpg`)
 }
 
 export function getRomGoodcodes(rom: {

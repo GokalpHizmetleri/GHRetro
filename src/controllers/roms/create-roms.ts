@@ -198,7 +198,7 @@ async function performBatchOperations(
 export async function createRoms({ files, md5s, platform }: { files: File[]; md5s: string[]; platform: PlatformName }) {
   const runtimeEnv = getRunTimeEnv()
   const { t } = getContext().var
-  const maxRomCount = Number.parseInt(runtimeEnv.RETROASSEMBLY_RUN_TIME_MAX_ROM_COUNT, 10) || Infinity
+  const maxRomCount = Number.parseInt(runtimeEnv.GHRETRO_RUN_TIME_MAX_ROM_COUNT, 10) || Infinity
   const romCount = await countRoms()
   if (romCount + files.length > maxRomCount) {
     throw new HTTPException(400, {
