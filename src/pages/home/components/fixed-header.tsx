@@ -29,7 +29,7 @@ export function FixedHeader() {
 
         <a
           className='flex items-center '
-          href='https://blog.retroassembly.com/'
+          href='https://blog.GHRetro.com/'
           rel='noreferrer noopener'
           target='_blank'
           title={t('Blog')}

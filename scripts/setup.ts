@@ -18,7 +18,7 @@ async function main() {
   ])
   await Promise.all([exec`drizzle-kit generate`, exec`wrangler types src/types/worker-configuration.d.ts`])
   await exec`drizzle-kit migrate`
-  await exec`wrangler d1 migrations apply --local retroassembly_library`
+  await exec`wrangler d1 migrations apply --local GHRetro_library`
 }
 
 await main()

@@ -7,6 +7,7 @@ export function createFileResponse(object: { body: NonSharedBuffer; httpEtag: st
     } catch {}
   }
   headers.set('ETag', object.httpEtag)
+  headers.set('Cache-Control', 'public, max-age=31536000, immutable')
   if ('range' in object && object.range && 'offset' in object.range && 'end' in object.range) {
     const contentRange = `bytes ${object.range.offset}-${object.range.end ?? object.size - 1}/${object.size}`
     headers.set('Content-Range', contentRange)

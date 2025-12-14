@@ -1,8 +1,8 @@
 export const metadata = {
-  buildDate: import.meta.env?.RETROASSEMBLY_BUILD_TIME_VITE_BUILD_TIME,
+  buildDate: import.meta.env?.GHRETRO_BUILD_TIME_VITE_BUILD_TIME,
   description: 'The personal retro game collection cabinet in your browser',
-  link: 'https://retroassembly.com/',
+  link: 'https://GHRetro.com/',
   themeColor: '#be123c',
-  title: 'RetroAssembly',
-  version: import.meta.env?.RETROASSEMBLY_BUILD_TIME_VITE_VERSION,
+  title: 'GHRetro',
+  version: import.meta.env?.GHRETRO_BUILD_TIME_VITE_VERSION,
 }

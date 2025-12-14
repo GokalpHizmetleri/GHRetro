@@ -15,13 +15,13 @@
   "d1_databases": [
     {
       "binding": "DB_LIBRARY",
-      "database_id": "${obj.RETROASSEMBLY_BUILD_TIME_WRANGLER_DATABASE_ID ?? '-'}",
-      "database_name": "retroassembly_library",
+      "database_id": "${obj.GHRETRO_BUILD_TIME_WRANGLER_DATABASE_ID ?? '-'}",
+      "database_name": "GHRetro_library",
       "migrations_dir": "src/databases/migrations"
     }
   ],
   "main": "./src/server/workerd.ts",
-  "name": "retroassembly",
+  "name": "GHRetro",
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1
@@ -33,8 +33,8 @@
   "r2_buckets": [
     {
       "binding": "BUCKET",
-      "bucket_name": "retroassembly",
-      "preview_bucket_name": "retroassembly"
+      "bucket_name": "GHRetro",
+      "preview_bucket_name": "GHRetro"
     }
   ],
   "services": [

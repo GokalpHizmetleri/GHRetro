@@ -12,7 +12,7 @@ app.use(contextStorage())
 app.use(vendors(), globals(), auth(), logger())
 app.route('', api)
 app.get('/robots.txt', (c) => {
-  const allowCrawler = getRunTimeEnv().RETROASSEMBLY_RUN_TIME_ALLOW_CRAWLER === 'true'
+  const allowCrawler = getRunTimeEnv().GHRETRO_RUN_TIME_ALLOW_CRAWLER === 'true'
   const allow = ['User-agent: *', 'Allow: /'].join('\n')
   const disallow = ['User-agent: *', 'Disallow: /'].join('\n')
   const content = allowCrawler ? allow : disallow

@@ -15,34 +15,34 @@ export function getRunTimeEnv() {
   return defaults(
     { ...runTimeEnv },
     {
-      RETROASSEMBLY_RUN_TIME_ALLOW_CRAWLER:
+      GHRETRO_RUN_TIME_ALLOW_CRAWLER:
         {
           node: 'false',
           workerd: `${Boolean(c?.req.url && new URL(metadata.link).origin === new URL(c.req.url).origin)}`,
         }[runtimeKey] || 'false',
-      RETROASSEMBLY_RUN_TIME_DATA_DIRECTORY: path.resolve('data'),
-      RETROASSEMBLY_RUN_TIME_MAX_ROM_COUNT: { node: '', workerd: '1000' }[runtimeKey] || '',
-      RETROASSEMBLY_RUN_TIME_MAX_UPLOAD_AT_ONCE: { node: '1000', workerd: '100' }[runtimeKey] || '100',
-      RETROASSEMBLY_RUN_TIME_MSLEUTH_FALLBACK_HOST: 'https://msleuth.fly.dev/',
-      RETROASSEMBLY_RUN_TIME_MSLEUTH_HOST: 'https://msleuth.arianrhodsandlot.workers.dev/',
-      RETROASSEMBLY_RUN_TIME_SKIP_HOME_IF_LOGGED_IN: { node: 'true', workerd: 'false' }[runtimeKey] || 'false',
-      RETROASSEMBLY_RUN_TIME_STORAGE_DIRECTORY: path.resolve('data', 'storage'),
-      RETROASSEMBLY_RUN_TIME_STORAGE_HOST: '',
-      RETROASSEMBLY_RUN_TIME_SUPABASE_ANON_KEY: '',
-      RETROASSEMBLY_RUN_TIME_SUPABASE_URL: '',
-      RETROASSEMBLY_RUN_TIME_SUPERVISER_USER_IDS: '',
+      GHRETRO_RUN_TIME_DATA_DIRECTORY: path.resolve('data'),
+      GHRETRO_RUN_TIME_MAX_ROM_COUNT: { node: '', workerd: '1000' }[runtimeKey] || '',
+      GHRETRO_RUN_TIME_MAX_UPLOAD_AT_ONCE: { node: '1000', workerd: '100' }[runtimeKey] || '100',
+      GHRETRO_RUN_TIME_MSLEUTH_FALLBACK_HOST: 'https://msleuth.fly.dev/',
+      GHRETRO_RUN_TIME_MSLEUTH_HOST: 'https://msleuth.arianrhodsandlot.workers.dev/',
+      GHRETRO_RUN_TIME_SKIP_HOME_IF_LOGGED_IN: { node: 'true', workerd: 'false' }[runtimeKey] || 'false',
+      GHRETRO_RUN_TIME_STORAGE_DIRECTORY: path.resolve('data', 'storage'),
+      GHRETRO_RUN_TIME_STORAGE_HOST: '',
+      GHRETRO_RUN_TIME_SUPABASE_ANON_KEY: '',
+      GHRETRO_RUN_TIME_SUPABASE_URL: '',
+      GHRETRO_RUN_TIME_SUPERVISER_USER_IDS: '',
     },
   )
 }
 
 export function getDirectories() {
   const runTimeEnv = getRunTimeEnv()
-  const dataDirectory = runTimeEnv.RETROASSEMBLY_RUN_TIME_DATA_DIRECTORY
-  const storageDirectory = runTimeEnv.RETROASSEMBLY_RUN_TIME_STORAGE_DIRECTORY
+  const dataDirectory = runTimeEnv.GHRETRO_RUN_TIME_DATA_DIRECTORY
+  const storageDirectory = runTimeEnv.GHRETRO_RUN_TIME_STORAGE_DIRECTORY
   return { dataDirectory, storageDirectory }
 }
 
 export function getDatabasePath() {
   const { dataDirectory } = getDirectories()
-  return path.join(dataDirectory, 'retroassembly.sqlite')
+  return path.join(dataDirectory, 'GHRetro.sqlite')
 }

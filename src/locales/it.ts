@@ -258,13 +258,13 @@ export const translation: ResourceLanguage = {
   'retrobrews project': 'progetto retrobrews',
   Retry: 'Riprova',
   review_dash:
-    'RetroAssembly non è soltanto un’altra interfaccia per emulatori o un semplice gestore di ROM: è un promemoria di quanto il retrogaming possa essere semplice e divertente quando le barriere scompaiono. In fondo, si tratta di rendere quei classici facili da trovare, facili da giocare e facili da portare sempre con te, ovunque tu sia. La tecnologia sotto il cofano è moderna, ma la filosofia è pura essenza a 8 bit: scegli un gioco, premi Start e parti.',
+    'GHRetro non è soltanto un’altra interfaccia per emulatori o un semplice gestore di ROM: è un promemoria di quanto il retrogaming possa essere semplice e divertente quando le barriere scompaiono. In fondo, si tratta di rendere quei classici facili da trovare, facili da giocare e facili da portare sempre con te, ovunque tu sia. La tecnologia sotto il cofano è moderna, ma la filosofia è pura essenza a 8 bit: scegli un gioco, premi Start e parti.',
   review_jim_gray:
-    'Avere a disposizione un’enorme libreria di giochi retrò è una gran cosa, ma non serve a molto se ti sei dimenticato la console portatile a casa. O magari vuoi iniziare l’ultimo Gioco del Mese e ti rendi conto che, per un motivo o per l’altro, non è sulla tua console. RetroAssembly nasce per questo: tutta la tua collezione è accessibile direttamente dal browser.',
+    'Avere a disposizione un’enorme libreria di giochi retrò è una gran cosa, ma non serve a molto se ti sei dimenticato la console portatile a casa. O magari vuoi iniziare l’ultimo Gioco del Mese e ti rendi conto che, per un motivo o per l’altro, non è sulla tua console. GHRetro nasce per questo: tutta la tua collezione è accessibile direttamente dal browser.',
   review_korben:
-    'RetroAssembly è, in pratica, una stazione di gioco retrò personale che sta in una scheda del browser. Niente installazione, niente configurazioni complicate: solo la tua collezione di giochi retrò accessibile da qualsiasi dispositivo. Dopo aver provato questa piattaforma, avrai la sensazione di aver riscoperto la tua stanza di giovane videogiocatore…',
+    'GHRetro è, in pratica, una stazione di gioco retrò personale che sta in una scheda del browser. Niente installazione, niente configurazioni complicate: solo la tua collezione di giochi retrò accessibile da qualsiasi dispositivo. Dopo aver provato questa piattaforma, avrai la sensazione di aver riscoperto la tua stanza di giovane videogiocatore…',
   review_robert_triggs:
-    'Con RetroAssembly, gestire la mia libreria di giochi non è più una seccatura, ma un piacere. È semplice da configurare, facilissimo da usare e funziona su tutti i miei dispositivi. Finalmente posso passare meno tempo a smanettare e più tempo a giocare.',
+    'Con GHRetro, gestire la mia libreria di giochi non è più una seccatura, ma un piacere. È semplice da configurare, facilissimo da usare e funziona su tutti i miei dispositivi. Finalmente posso passare meno tempo a smanettare e più tempo a giocare.',
   Reviews: 'Recensioni',
   Rewind: 'Riavvolgi',
   'Rewind Gameplay': 'Riavvolgi Gameplay',

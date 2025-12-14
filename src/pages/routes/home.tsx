@@ -18,7 +18,7 @@ export function loader({ params }: Route.LoaderArgs) {
   const { detectedLanguage, language } = loaderData
   const c = getContext()
 
-  const skipIfLoggedIn = getRunTimeEnv().RETROASSEMBLY_RUN_TIME_SKIP_HOME_IF_LOGGED_IN === 'true'
+  const skipIfLoggedIn = getRunTimeEnv().GHRETRO_RUN_TIME_SKIP_HOME_IF_LOGGED_IN === 'true'
   if (loaderData.currentUser && skipIfLoggedIn) {
     throw c.redirect('/library')
   }

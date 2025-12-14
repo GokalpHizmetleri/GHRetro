@@ -1,15 +1,15 @@
 <p align="center">
   <img src="public/assets/logo/logo-512x512.png" alt="logo" width="100" height="100">
-  <h1 align="center">RetroAssembly</h1>
+  <h1 align="center">GHRetro</h1>
 </p>
 
 <p align="center">
-  <a href="https://github.com/arianrhodsandlot/retroassembly"><img src="https://img.shields.io/github/stars/arianrhodsandlot/retroassembly" alt="GitHub"></a>
+  <a href="https://github.com/arianrhodsandlot/GHRetro"><img src="https://img.shields.io/github/stars/arianrhodsandlot/GHRetro" alt="GitHub"></a>
   <a href="https://discord.gg/gwaKRAYG6t"><img src="https://img.shields.io/discord/1129062038543548496?logo=discord" alt="Discord"></a>
-  <a href="https://hub.docker.com/r/arianrhodsandlot/retroassembly"><img src="https://img.shields.io/docker/pulls/arianrhodsandlot/retroassembly" alt="Docker Hub"></a>
+  <a href="https://hub.docker.com/r/arianrhodsandlot/GHRetro"><img src="https://img.shields.io/docker/pulls/arianrhodsandlot/GHRetro" alt="Docker Hub"></a>
 </p>
 
-RetroAssembly is the personal retro game collection cabinet in your browser.
+GHRetro is the personal retro game collection cabinet in your browser.
 
 ![library](public/assets/screenshots/library.jpeg)
 
@@ -39,25 +39,25 @@ Share your ideas to our community and they may appear here later!
 ## Getting Started
 
 ### Choose Your Setup
-You have two options to get started with RetroAssembly:
+You have two options to get started with GHRetro:
 
 #### Option 1: Use the Official Hosted Version
 > <small>Recommended for most users. Perfect if you want to get started quickly without any setup.</small>
 
-1. Visit [retroassembly.com](https://retroassembly.com/) in your web browser.
-2. *(Optional)* If you're new here, explore the library and try out the available [demo games](https://retroassembly.com/demo) to see how it works.
-3. [Login](https://retroassembly.com/login) and create your personal game library by uploading your own ROM files.
+1. Visit [GHRetro.com](https://GHRetro.com/) in your web browser.
+2. *(Optional)* If you're new here, explore the library and try out the available [demo games](https://GHRetro.com/demo) to see how it works.
+3. [Login](https://GHRetro.com/login) and create your personal game library by uploading your own ROM files.
 4. Once your ROMs are uploaded, select any game from your library to launch it directly in your browser and start playing.
 5. Don't forget to use the in-game menu to save your progress, which will be synchronized for you.
 
 #### Option 2: Self-Host with Docker
 > <small>For advanced users who want full control. Perfect if you prefer to host your own instance, have privacy concerns, or want to customize the deployment.</small>
 
-See [RetroAssembly's homepage on Docker Hub](https://hub.docker.com/r/arianrhodsandlot/retroassembly#quick-start).
+See [GHRetro's homepage on Docker Hub](https://hub.docker.com/r/arianrhodsandlot/GHRetro#quick-start).
 
 ## Supported Platforms
 
-RetroAssembly aims to support a wide range of vintage gaming systems. Emulation is powered by [Nostalgist.js](https://nostalgist.js.org/).
+GHRetro aims to support a wide range of vintage gaming systems. Emulation is powered by [Nostalgist.js](https://nostalgist.js.org/).
 
 <details>
   <summary>Click here to view the full list.</summary>
@@ -96,7 +96,7 @@ RetroAssembly aims to support a wide range of vintage gaming systems. Emulation 
 See [Contributing](docs/contributing.md).
 
 ## Open-source Alternatives
-We hope you have a fantastic time revisiting your favorite retro games... Even with applications other than RetroAssembly.
+We hope you have a fantastic time revisiting your favorite retro games... Even with applications other than GHRetro.
 
 - [EmulatorJS](https://emulatorjs.org) [:octocat:](https://github.com/EmulatorJS/EmulatorJS)
 - [GamePlayColor](https://gameplaycolor.com) [:octocat:](https://github.com/gameplaycolor/gameplaycolor)

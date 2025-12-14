@@ -65,7 +65,7 @@ const DEFAULT_ICONS = [
   'vb',
   'wonderswan',
   'wonderswancolor',
-].map((platform) => getCDNUrl('arianrhodsandlot/retroassembly-assets', `platforms/consoles/${platform}.svg`))
+].map((platform) => getCDNUrl('arianrhodsandlot/GHRetro-assets', `platforms/consoles/${platform}.svg`))
 
 // Animation constants with const assertions for better type safety
 const DEFAULT_CONFIG = {

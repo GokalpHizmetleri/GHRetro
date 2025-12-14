@@ -32,7 +32,7 @@ export function Head() {
       <link href={metadata.link} rel='canonical' />
 
       <link href='/assets/logo/logo-192x192.png' rel='icon' sizes='any' />
-      <link href='/assets/logo/logo.svg' rel='icon' type='image/svg+xml' />
+
       <link href='/assets/logo/apple-touch-icon.png' rel='apple-touch-icon' sizes='any' />
 
       <link href='/manifest.webmanifest' rel='manifest' />

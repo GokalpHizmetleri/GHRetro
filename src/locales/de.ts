@@ -260,13 +260,13 @@ export const translation: ResourceLanguage = {
   'retrobrews project': 'retrobrews-Projekt',
   Retry: 'Wiederholen',
   review_dash:
-    'RetroAssembly ist nicht nur eine weitere Emulator-Oberfläche oder ein ROM-Manager, sondern eine Erinnerung daran, wie einfach und freudig Retro-Gaming sein kann, wenn alle Hürden wegfallen. Im Kern geht es darum, diese Klassiker leicht zugänglich zu machen – leicht zu finden, leicht zu spielen und leicht mitzunehmen, egal wo du gerade bist. Die Technik unter der Haube ist modern, doch die Philosophie ist ganz und gar 8‑Bit: Spiel auswählen, Start drücken – und los geht’s.',
+    'GHRetro ist nicht nur eine weitere Emulator-Oberfläche oder ein ROM-Manager, sondern eine Erinnerung daran, wie einfach und freudig Retro-Gaming sein kann, wenn alle Hürden wegfallen. Im Kern geht es darum, diese Klassiker leicht zugänglich zu machen – leicht zu finden, leicht zu spielen und leicht mitzunehmen, egal wo du gerade bist. Die Technik unter der Haube ist modern, doch die Philosophie ist ganz und gar 8‑Bit: Spiel auswählen, Start drücken – und los geht’s.',
   review_jim_gray:
-    'Eine riesige Bibliothek an Retrospielen zu besitzen ist das eine, aber sie nützt dir nichts, wenn du deine Handheld-Konsole zu Hause liegen gelassen hast. Oder du willst mit dem Game des Monats loslegen und stellst fest, dass es aus irgendeinem Grund nicht auf deinem Handheld ist. RetroAssembly will genau hier helfen – denn deine gesamte Sammlung ist direkt im Browser verfügbar.',
+    'Eine riesige Bibliothek an Retrospielen zu besitzen ist das eine, aber sie nützt dir nichts, wenn du deine Handheld-Konsole zu Hause liegen gelassen hast. Oder du willst mit dem Game des Monats loslegen und stellst fest, dass es aus irgendeinem Grund nicht auf deinem Handheld ist. GHRetro will genau hier helfen – denn deine gesamte Sammlung ist direkt im Browser verfügbar.',
   review_korben:
-    'RetroAssembly ist im Grunde deine persönliche Retro-Spielestation, die in einen Browser-Tab passt. Keine Installation, keine komplizierte Konfiguration – nur deine Sammlung von Retrospielen, auf jedem Gerät zugänglich. Nach ein paar Tests mit dieser Plattform wirst du das Gefühl haben, dein Jugendzimmer als Gamer wiederentdeckt zu haben …',
+    'GHRetro ist im Grunde deine persönliche Retro-Spielestation, die in einen Browser-Tab passt. Keine Installation, keine komplizierte Konfiguration – nur deine Sammlung von Retrospielen, auf jedem Gerät zugänglich. Nach ein paar Tests mit dieser Plattform wirst du das Gefühl haben, dein Jugendzimmer als Gamer wiederentdeckt zu haben …',
   review_robert_triggs:
-    'Mit RetroAssembly wird die Verwaltung meiner Spielbibliothek vom Pflichtprogramm zum Vergnügen. Die Einrichtung ist einfach, die Bedienung mühelos, und es funktioniert auf all meinen Geräten. Endlich kann ich weniger Zeit mit Basteln verbringen – und mehr Zeit mit Spielen.',
+    'Mit GHRetro wird die Verwaltung meiner Spielbibliothek vom Pflichtprogramm zum Vergnügen. Die Einrichtung ist einfach, die Bedienung mühelos, und es funktioniert auf all meinen Geräten. Endlich kann ich weniger Zeit mit Basteln verbringen – und mehr Zeit mit Spielen.',
   Reviews: 'Bewertungen',
   Rewind: 'Zurückspulen',
   'Rewind Gameplay': 'Gameplay zurückspulen',

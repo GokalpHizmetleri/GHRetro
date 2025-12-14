@@ -1,7 +1,7 @@
 import { serve } from '@hono/node-server'
 import { exec, getTargetRuntime, logServerInfo } from './utils.ts'
 
-const envPort = process.env.RETROASSEMBLY_RUN_TIME_PORT || process.env.PORT
+const envPort = process.env.GHRETRO_RUN_TIME_PORT || process.env.PORT
 const port = envPort ? Number.parseInt(envPort, 10) || 8000 : 8000
 
 async function serveWorkerd() {

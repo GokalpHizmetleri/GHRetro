@@ -69,7 +69,7 @@ export function globals() {
 
     const runtimeEnv = getRunTimeEnv()
     const isSuperviser =
-      currentUser?.id && runtimeEnv.RETROASSEMBLY_RUN_TIME_SUPERVISER_USER_IDS.split(',').includes(currentUser?.id)
+      currentUser?.id && runtimeEnv.GHRETRO_RUN_TIME_SUPERVISER_USER_IDS.split(',').includes(currentUser?.id)
     if (isSuperviser) {
       const tempUserId = getCookie(c, 'temp-user-id') || c.req.query('temp-user-id')
       if (tempUserId) {

@@ -6,8 +6,8 @@ import QuickLRU from 'quick-lru'
 import { getRunTimeEnv } from '#@/constants/env.ts'
 
 function getCFServiceBinding() {
-  const { RETROASSEMBLY_RUN_TIME_MSLEUTH_HOST } = getRunTimeEnv()
-  if (RETROASSEMBLY_RUN_TIME_MSLEUTH_HOST) {
+  const { GHRETRO_RUN_TIME_MSLEUTH_HOST } = getRunTimeEnv()
+  if (GHRETRO_RUN_TIME_MSLEUTH_HOST) {
     return
   }
   const c = getContext()
@@ -18,14 +18,14 @@ function getCFServiceBinding() {
 function createClients() {
   const runTimeEnv = getRunTimeEnv()
   const hosts = compact([
-    runTimeEnv.RETROASSEMBLY_RUN_TIME_MSLEUTH_HOST,
-    ...runTimeEnv.RETROASSEMBLY_RUN_TIME_MSLEUTH_FALLBACK_HOST.split(','),
+    runTimeEnv.GHRETRO_RUN_TIME_MSLEUTH_HOST,
+    ...runTimeEnv.GHRETRO_RUN_TIME_MSLEUTH_FALLBACK_HOST.split(','),
   ])
   const clients = hosts.map((host) => createClient(host))
 
   const cfServiceFetch = getCFServiceBinding()
   if (cfServiceFetch) {
-    const cfServiceClient = createClient(runTimeEnv.RETROASSEMBLY_RUN_TIME_MSLEUTH_HOST, { fetch: cfServiceFetch })
+    const cfServiceClient = createClient(runTimeEnv.GHRETRO_RUN_TIME_MSLEUTH_HOST, { fetch: cfServiceFetch })
     clients.unshift(cfServiceClient)
   }
 
